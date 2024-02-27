@@ -1,0 +1,35 @@
+*{
+    font-family: Arial;
+}
+#bannerlewy, #footerlewa, #bannersrodkowy, #footersrodkowa, #bannerprawy, #footerprawa{
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+    float: left;
+}
+#bannerlewy, #footerlewa{
+    width: 55%;
+    font-size: 120%;
+}
+#bannersrodkowy, #footersrodkowa{
+    width: 25%;
+}
+#bannerprawy, #footerprawa{
+    width: 20%;
+    text-align: right;
+}
+#glowny{
+    background: snow;
+    padding: 70px;
+    clear: both;
+}
+a{
+    border: 2px dotted saddlebrown;
+    background: snow;
+    color: saddlebrown;
+    padding: 20px;
+    line-height: 100px;
+}
+ol{
+    list-style-type: lower-alpha;
+}
